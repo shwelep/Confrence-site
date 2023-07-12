@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT/CSC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>About</title>
+
+     <style>
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url("images/earth-2254769_1920.jpg");
+    background-size: auto;
+    height: 500px;
+    color:  rgb(44, 58, 98); 
+
+    /*background-image: url("images/homeBG1.jpg");
+    background-size: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 65px 400px 50px 400px;
+    color: whitesmoke; */
+}
+
+h1, h2{
+    
+    margin: 0px;
+    padding: 0px 200px 0px 10px;
+    color: rgb(157, 219, 218);
+
+}
+
+h1{
+    margin:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+   
+}
+
+
+nav{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(7, 7, 7, 0.331);
+    height: 50px;
+    width: 100%;
+    
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 0px 100px 0px 0px;
+  
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+div {
+    text-align:left;
+    flex: auto;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+h1, h2{
+    color: rgb(157, 219, 218);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h1{
+    margin:60px;
+    font-size: 100px;
+   
+}
+
+body{
+    background-color:rgb(44, 58, 98) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+section{
+    display: flex;
+    flex-direction: block;
+}
+
+
+
+section img {
+    
+    width: 200px;
+    border-radius: 50%;
+    max-width: 190px;    
+}
+
+footer{
+    background-color: rgba(7, 7, 7, 0.331);
+    color: azure;
+    padding: 20px;
+   
+}
+
+ul{
+    margin: 0px 40px 0px 0px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+p{
+    font-size: 200px;
+}
+
+input{
+      border: 0;
+      border-radius: 50px;
+      padding: 10px;
+      font-size: 18px;
+      margin: 20px 20px 0px ;
+      }  
+      
+input[type="submit"]{
+      color: white;
+      background: rgb(87, 123, 213);
+    }
+
+
+ </style>
+</head>
+
+
+<body>
+
+    <header>
+        
+        <nav>
+            <label class="logo"><strong><em>IT/CSC</em></strong></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Submit.html">Submit</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="Register.html">Register</a></li>
+                    </ul>
+        </nav>
+
+        <h1>Register</h1>
+    
+        
+
+  </header>
+
+
+  <body>
+   
+     <!--Registration form structure-->
+     <form class="submission-form" action="success.html" method="GET">
+        <h3>Registration Form</h3>
+        <div>
+            <label for="name">Name</label>
+            <input name="name" id="name" placeholder="Name" required>
+        </div>
+        <div>
+            <label for="surname">Name</label>
+            <input name="surname" id="surname" placeholder="Surame" required>
+        </div>
+       <div>
+            <label for="password">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+       </div>
+       <div>
+           <label for="email">Email</label>
+           <input type="email" name="email" id="email" placeholder="user@example.com" required>
+       </div>
+       
+       <div>
+           <label for="date">Date Of Birth</label>
+           <input type="date" name="date" id="date" min="1997-07-09">
+       </div>
+       <div>
+           <label for="Age">Age</label>
+           <input type="number" name="Age" id="Age">
+       </div>
+       
+       <div>
+           Gender
+           <label for="male">Male</label>
+           <input type="radio" name="gender" id="male" value="male">
+       </div>
+       <div>
+           <label for="female">Female</label>
+           <input type="radio" name="gender" id="female" value="female">
+       </div>
+       
+       
+       
+       <div>
+           <label for="Upload">Upload Paper</label>
+           <input type="file" name="Upload" id="Upload" required>
+       </div>
+        <button type="reset" value="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <!--The form ends here-->
+
+    <footer>@2022 7874 Inverness St.
+        Namibia University of Science and Technology (NUST) +264 81 666 666</footer>
+
+  </body>
